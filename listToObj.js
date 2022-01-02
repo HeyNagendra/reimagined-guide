@@ -1,5 +1,7 @@
+"use strict";
 var suspects = ["Miss Scarlet", "Colonel Mustard", "Mr. White"];
 let suspectsList = [];
+let suspestsInUpperCase = [];
 
 function CreateSuspectObjects(name) {
   return {
@@ -12,8 +14,14 @@ function CreateSuspectObjects(name) {
 }
 
 for (let i=0; i < suspects.length; i++) {
-  suspect = CreateSuspectObjects(suspects[i]);
-  suspectsList.push(suspect);
+  suspects = CreateSuspectObjects(suspects[i]);
+  suspectsList.push(suspects);
 }
 
-console.log(suspectsList[2].speak());
+
+let newSuspects = ["Alan Turing", "Charles Babbage", "Captian Sparrow"];
+for (let i=0; i < newSuspects.length; i++) {
+  suspestsInUpperCase.push(newSuspects[i].toUpperCase());
+}
+
+console.log(suspestsInUpperCase);
