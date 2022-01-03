@@ -36,14 +36,19 @@ body{
     margin: 30px;
     display: inline-block;
 }
-
-.secretnumber p {
+main {
+    display: flex;
+    justify-content: center;
+}
+.secretnumber {
     text-align: center;
     font-weight: bold;
     color: white;
     font-size: 100px;
     border: 2px solid white;
-    display: inline;
-    position: relative; 
-    top:   
+    margin: 0px;
+    border-radius: 20px;
+    padding: 2px;
+    width: 200px;
 }
+
