@@ -3,6 +3,8 @@ body{
     margin: 0;
     box-sizing: border-box;
     background-color: black;
+    font-family: 'Faster One', cursive;
+    color: white;
 }
 
 .navbar{
@@ -39,6 +41,8 @@ body{
 main {
     display: flex;
     justify-content: center;
+    align-items: center;
+    flex-direction: column;
 }
 .secretnumber {
     text-align: center;
@@ -51,4 +55,61 @@ main {
     padding: 2px;
     width: 200px;
 }
+.result{
+    text-align: center;
+    font-weight: bold;
+    color: white;
+    font-size: 100px;
+    margin-top: 10px;
+}
 
+.footer {
+    font-size: xx-large;
+    display: flex;
+    flex-direction: column;
+    margin: 50px;
+}
+
+.plives, .score-track {
+    float: right;
+    text-align: right;
+    display: block;
+    margin: 0px;
+}
+
+.input-text {
+    width: 100px;
+    height: 50px;
+    font-size: 30px;
+    font-weight: bold;
+    border: 2px solid white;
+    border-radius: 5px;
+    padding: 2px;
+    margin: 10px;
+    font-family: 'Faster One', cursive;
+}
+
+.btn {
+    margin: 10px;
+    width: 150px;
+    height: 43px;
+    font-size: 30px;
+    font-weight: bold;
+    border: 2px solid white;
+    text-align: center;
+    font-family: 'Faster One', cursive;
+    
+}
+
+.nav-btn {
+    margin: 10px;
+    width: 150px;
+    height: 64px;
+    font-size: 30px;
+    font-weight: bold;
+    border: 2px solid white;
+    text-align: center;
+    font-family: 'Faster One', cursive;
+    background-color: black;
+    color: white;
+}
